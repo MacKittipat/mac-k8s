@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
         - name: mac-nginx
+          # httpd or nginx
           image: nginx:latest
           ports:
             - containerPort: 80
